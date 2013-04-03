@@ -50,7 +50,7 @@ params
 example
 -------
 
-     os_sitemap:
+     jlaso_sitemap:
          path: "%kernel.root_dir%/../web/sitemap.xml"
          items:
             Post:
@@ -61,7 +61,7 @@ example
 
      ; with language support
 
-      os_sitemap:
+      jlaso_sitemap:
           path: "%kernel.root_dir%/../web/sitemap.xml"
           items:
             Post:
@@ -72,7 +72,7 @@ example
 
      ; OR
 
-      os_sitemap:
+      jlaso_sitemap:
           path: "%kernel.root_dir%/../web/sitemap.xml"
           items:
             Post:
