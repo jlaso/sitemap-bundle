@@ -67,7 +67,7 @@ class SitemapGenerator
 
         foreach($items as $item=>$itemConfig){
 
-            $dql = sprintf('SELECT %1$s FROM %2$s %1$s', $itemConfig['alias'], $itemConfig['entity']);
+            $dql = sprintf('SELECT %1$s FROM %2$s %1$s', $item, $itemConfig['entity']);
 
             if (!empty($itemConfig['where'])) {
                 $dql .= ' WHERE ' . $itemConfig['where'];
