@@ -120,3 +120,4 @@ ROUTING.YML
         pattern: /sitemap-post-_{language}.xml
         defaults: { _controller: JlasoSitemapBundle:Sitemap:generate, _method:GET, language:'en', item:'Post' }
         # the item parameter must match with one of os_sitemap.items definition in config.yml
+
